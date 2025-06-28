@@ -1,0 +1,26 @@
+[project]
+name = "asvspoof2019-wav2vec"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "black>=25.1.0",
+    "datasets>=3.6.0",
+    "flake8>=7.3.0",
+    "jupyter>=1.1.1",
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.3",
+    "pytest>=8.4.1",
+    "scikit-learn>=1.7.0",
+    "scipy>=1.16.0",
+    "seaborn>=0.13.2",
+    "sounddevice>=0.5.2",
+    "soundfile>=0.13.1",
+    "tensorboard>=2.19.0",
+    "torch>=2.7.1",
+    "torchaudio>=2.7.1",
+    "torchvision>=0.22.1",
+    "transformers>=4.53.0",
+    "wandb>=0.20.1",
+]

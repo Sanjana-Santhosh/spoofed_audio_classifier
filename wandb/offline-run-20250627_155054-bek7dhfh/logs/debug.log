@@ -1,0 +1,22 @@
+2025-06-27 15:50:54,141 INFO    MainThread:1210007 [wandb_setup.py:_flush():81] Current SDK version is 0.20.1
+2025-06-27 15:50:54,141 INFO    MainThread:1210007 [wandb_setup.py:_flush():81] Configure stats pid to 1210007
+2025-06-27 15:50:54,142 INFO    MainThread:1210007 [wandb_setup.py:_flush():81] Loading settings from /home/sanjay/.config/wandb/settings
+2025-06-27 15:50:54,142 INFO    MainThread:1210007 [wandb_setup.py:_flush():81] Loading settings from /home/sanjay/Development/devu/asvspoof2019-wav2vec/wandb/settings
+2025-06-27 15:50:54,142 INFO    MainThread:1210007 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-06-27 15:50:54,142 INFO    MainThread:1210007 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /home/sanjay/Development/devu/asvspoof2019-wav2vec/wandb/offline-run-20250627_155054-bek7dhfh/logs/debug.log
+2025-06-27 15:50:54,142 INFO    MainThread:1210007 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /home/sanjay/Development/devu/asvspoof2019-wav2vec/wandb/offline-run-20250627_155054-bek7dhfh/logs/debug-internal.log
+2025-06-27 15:50:54,143 INFO    MainThread:1210007 [wandb_init.py:init():831] calling init triggers
+2025-06-27 15:50:54,143 INFO    MainThread:1210007 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'model_name': 'facebook/wav2vec2-base-960h', 'num_classes': 2, 'freeze_feature_extractor': True, 'freeze_transformer_layers': 6, 'batch_size': 16, 'learning_rate': 0.0001, 'num_epochs': 50, 'weight_decay': 0.0001, 'max_audio_length': 64000, 'train_ratio': 0.7, 'val_ratio': 0.15, 'test_ratio': 0.15, 'data_dir': 'data/raw/ASVspoof2019_LA_train/flac', 'protocol_file': 'data/protocols/ASVspoof2019.LA.cm.train.trn.txt', 'model_save_dir': 'models', 'log_dir': 'logs', 'save_every_n_epochs': 5, 'eval_every_n_epochs': 1, 'early_stopping_patience': 10, 'gradient_clip_val': 1.0, 'device': 'cuda', 'num_workers': 4, 'use_wandb': True, 'wandb_project': 'asvspoof2019-wav2vec2', 'experiment_name': None, '_wandb': {}}
+2025-06-27 15:50:54,143 INFO    MainThread:1210007 [wandb_init.py:init():872] starting backend
+2025-06-27 15:50:54,360 INFO    MainThread:1210007 [wandb_init.py:init():875] sending inform_init request
+2025-06-27 15:50:54,382 INFO    MainThread:1210007 [wandb_init.py:init():883] backend started and connected
+2025-06-27 15:50:54,386 INFO    MainThread:1210007 [wandb_init.py:init():956] updated telemetry
+2025-06-27 15:50:54,389 INFO    MainThread:1210007 [wandb_init.py:init():980] communicating run to backend with 90.0 second timeout
+2025-06-27 15:50:54,504 INFO    MainThread:1210007 [wandb_init.py:init():1032] starting run threads in backend
+2025-06-27 15:50:54,619 INFO    MainThread:1210007 [wandb_run.py:_console_start():2453] atexit reg
+2025-06-27 15:50:54,619 INFO    MainThread:1210007 [wandb_run.py:_redirect():2301] redirect: wrap_raw
+2025-06-27 15:50:54,619 INFO    MainThread:1210007 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2025-06-27 15:50:54,619 INFO    MainThread:1210007 [wandb_run.py:_redirect():2393] Redirects installed.
+2025-06-27 15:50:54,622 INFO    MainThread:1210007 [wandb_init.py:init():1078] run started, returning control to user process
+2025-06-27 15:50:58,515 INFO    MsgRouterThr:1210007 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 0 handles.

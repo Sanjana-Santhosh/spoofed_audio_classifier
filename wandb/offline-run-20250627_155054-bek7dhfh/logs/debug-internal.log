@@ -1,0 +1,15 @@
+{"time":"2025-06-27T15:50:54.391253513+05:30","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/sanjay/Development/devu/asvspoof2019-wav2vec/wandb/offline-run-20250627_155054-bek7dhfh/logs/debug-core.log"}
+{"time":"2025-06-27T15:50:54.498619539+05:30","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-06-27T15:50:54.49915193+05:30","level":"INFO","msg":"stream: created new stream","id":"bek7dhfh"}
+{"time":"2025-06-27T15:50:54.499208136+05:30","level":"INFO","msg":"stream: started","id":"bek7dhfh"}
+{"time":"2025-06-27T15:50:54.499298342+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bek7dhfh"}
+{"time":"2025-06-27T15:50:54.499425622+05:30","level":"INFO","msg":"handler: started","stream_id":"bek7dhfh"}
+{"time":"2025-06-27T15:50:54.499388135+05:30","level":"INFO","msg":"sender: started","stream_id":"bek7dhfh"}
+{"time":"2025-06-27T15:50:54.510237971+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-27T15:50:58.516650286+05:30","level":"INFO","msg":"stream: closing","id":"bek7dhfh"}
+{"time":"2025-06-27T15:50:58.516759159+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-27T15:50:58.516810437+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-27T15:50:58.517637267+05:30","level":"INFO","msg":"handler: closed","stream_id":"bek7dhfh"}
+{"time":"2025-06-27T15:50:58.517661303+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bek7dhfh"}
+{"time":"2025-06-27T15:50:58.517716892+05:30","level":"INFO","msg":"sender: closed","stream_id":"bek7dhfh"}
+{"time":"2025-06-27T15:50:58.517793969+05:30","level":"INFO","msg":"stream: closed","id":"bek7dhfh"}
